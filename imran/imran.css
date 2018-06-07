@@ -1,0 +1,164 @@
+body, img, div{ margin:0; padding:0; font-size:100%; line-height:1; }
+
+body{
+text-align: center;
+font-family: 'Cinzel', serif;
+font-size: 20px;
+background-image: url(mountain-1244132_1920.jpg);
+background-size: cover;
+min-width: 0px;
+}
+
+#name{
+margin-top: 10%;
+font-size: 80px;
+text-decoration: ;
+color: aliceblue;
+color:#000;
+text-shadow:1px 1px 0 #fff,
+-1px -1px 0 #fff,
+1px -1px 0 #fff,
+-1px 1px 0 #fff,
+0px 1px 0 #fff,
+1px 0px 0 #fff,
+0px -1px 0 #fff,
+-1px 0px 0 #fff,
+;
+}
+
+p{
+background-color:hsla(120,0%,70%,0.4);
+width: auto;
+}
+
+
+button{
+padding: 10px 30px;
+font-size: 20px;
+color: black;
+background-color:hsla(120,0%,70%,0.4);
+border: 2px  solid;
+border-radius: 10px;
+width: 48%;
+cursor:pointer;
+}
+
+#button{
+padding: 10px 30px;
+font-size: 20px;
+color: black;
+background-color:hsla(120,0%,70%,0.4);
+border: 2px  solid;
+border-radius: 10px;
+cursor:pointer;
+}
+
+form{
+margin-top: 22px;
+width: 50%;
+position: relative;
+left: -5000px;
+}
+
+.moved{
+position: absolute;
+left: 25%;
+right: 25%;
+overflow: hidden;
+}
+
+.tag{
+display: inline;
+}
+
+input,textarea{
+width: 95%; 
+border-radius: 5px;
+}
+
+textarea{
+height: 150px;    
+}
+
+#ad{
+height: 100px;
+position: absolute;
+width: 50%;
+bottom: 10px;
+
+}
+
+
+/*@media (max-width:800px) {
+ 
+body{
+min-width: 800px;  
+background-color: aqua;
+}
+
+button{
+width: 390px;
+}
+    
+.moved{
+position: absolute;
+left: 200px;
+right: 0px;
+overflow: hidden;
+width: 400px;
+}
+    
+input,textarea{
+width: 95%; 
+border-radius: 5px;
+}
+ 
+}*/
+
+
+
+@media (max-width:515px) {
+    
+body{
+text-align: center;
+width: auto;
+text-align: center;
+font-size: 19px;
+min-width: 0px;
+min-height: 100%;
+overflow: hidden;
+}
+ 
+#name{
+margin-top: 5%;
+font-size: 50px;
+
+}
+    
+button{
+width: 95%;
+}
+
+form{
+margin-top: 15%;
+width: 50%;
+position: relative;
+left: -5000px;
+}
+    
+.moved{
+width: 100%;
+overflow: hidden;
+left: 0px;
+}
+
+.tag{
+display: inline;
+}
+    
+input,textarea{
+width: 95%; 
+border-radius: 5px;
+}
+    
+}

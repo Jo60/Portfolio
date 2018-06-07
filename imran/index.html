@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Imran Pardhan</title>  
+<link rel="stylesheet" type="text/css" href="imran.css">
+<link href='https://fonts.googleapis.com/css?family=Cinzel:700,400' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" src="imran.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-87775254-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<h1 id='name'>Imran Pardhan</h1>
+<p id='subtext'>Sociology student at the University of Toronto</p>
+<button id='contact'>Contact</button>
+<form action="/cgi-sys/formmail.cgi" method="POST">
+<input type=hidden name="recipient" value="hello@imranpardhan.com"> 
+<input type=hidden name="subject" value="Siteground Test"> 
+<input type="name" name="name" placeholder="E-mail:">
+    <br><br>
+<textarea name="message" placeholder="Write your message here" >
+</textarea>
+<br><br>
+<input type="submit" value="Send E-mail" id="button">
+</form>
+<!--<img src="ai.png" id='ad'>-->
+</body>
+</html>

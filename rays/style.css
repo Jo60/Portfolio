@@ -1,0 +1,175 @@
+body{
+background-color: red;
+}
+
+#headline{
+background-color: aliceblue;
+height: 300px;
+background-image: url(balance-blur-close-up-668353.jpg);
+background-size:100% 100%;
+margin-bottom: -15px;
+}
+
+.container-fluid{
+background-color: aliceblue;
+}
+
+/*.jumbotron{
+background-image: url(balance-blur-close-up-668353.jpg);
+background-size:100% 100%;
+height: 300px;
+width: 100%;
+margin-bottom: 0px;
+}*/
+
+#headline p{
+ background-color: rgba(204, 255, 255, 0.3);  
+width: 50%;
+min-width: 50%;
+padding: 0 3%;
+border-radius: 30px;
+}
+
+nav{
+border-top: solid black 1px;
+border-bottom: solid black 1px;
+background-color: whitesmoke;
+}
+
+#social{
+font-size: 25px;
+margin-right: 10%;
+color: blue;
+}
+
+.main{
+border-right: solid black 1px;
+border-left: solid black 1px;
+}
+
+#about{
+padding: 50px 0px;
+background-image: url(board-bread-breakfast-349610.jpg);
+background-size: cover;
+}
+
+.headline{
+text-align: center
+}
+
+#recentPosts{
+background-color: aliceblue;
+text-align: center;
+}
+
+
+.article{
+background-color: beige;
+border: solid black 1px;
+border-radius: 5px;
+margin: 30px;
+box-shadow: 5px 10px 10px gray;
+padding: 0 100px;
+text-align: center;
+}
+
+.article p{
+text-align: left;
+}
+
+.article h3{
+border-bottom: solid black 1px;
+}
+
+
+#expand{
+ text-align: center;
+}
+
+.fa-sticker-mule{
+font-size: 30px;
+}
+
+#photo{
+width: 90%;
+height: 70%;
+display: none;
+}
+
+#bio{
+margin: 0 20%;
+background-color: rgba(204, 255, 255, 0.3);
+padding: 50px 0px;
+border-radius: 20px;
+}
+
+#recentPosts{
+border-top: solid black 2px;
+border-bottom: solid black 2px;
+}
+
+#contact{
+margin: 30px 0px;
+}
+
+#contactCard{
+border: solid black 2px;
+margin: 50px 0px;
+list-style-type: none;
+box-shadow: 5px 10px 20px #888888;
+background-color: whitesmoke;
+}
+
+#map{
+width: 100%;
+height: 400px;
+margin: 10px;
+}
+
+footer{
+background-color: darkgray;
+color: aliceblue;
+text-align: center;
+font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+#social{
+
+}
+    
+#bio{
+margin: 0 10%;
+}
+
+
+.jumbotron p{
+min-width: 100%;
+}
+
+.article{
+border: solid black 1px;
+margin: 20px;
+box-shadow: 5px 10px 10px whitesmoke;
+padding: 0 10px;
+
+}
+    
+#expand{
+margin: 0px 37%;
+}
+
+}
+
