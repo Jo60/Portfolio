@@ -4,32 +4,23 @@
 <meta charset="utf-8">	
 <meta name="viewport" content="initial-scale=1">
 <title>My Portfolio</title>
+<!--stylesheet-->
 <link rel="stylesheet" type="text/css" href="disite.css">
+<!--fontawesome-->
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--googlefonts-->
 <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+<!--external javascript-->
 <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-88184522-2', 'auto');
-ga('send', 'pageview');
-</script>
 </head>
 <body>
+    
 <div id ="header"></div>
+    <!--Title-->
 <nav>
 <p>Jo's Web Design</p>
-<!--<div class="button">
-<i class="fa fa-caret-square-o-down"></i>
-</div>
-<ul>
-<li><a href="#form">Contact Us <i class="fa fa-envelope-o"></i></a></li>
-<li><a href="#showoff">What We Can Do <i class="fa fa-code"></i></a></li>
-<li><a href="#aboutus">About Us <i class="fa fa-users"></i></a></li>
-</ul>-->
+
 <div id=social>
 <i class="fa fa-codepen" aria-hidden="true"></i>
 <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -37,15 +28,21 @@ ga('send', 'pageview');
 <i class="fa fa-linkedin-square" aria-hidden="true"></i>
 </div>
 </nav>
+
+    <!--pop-up Navigation-->
 <section>
 <i class="fa fa-bars"></i>
 <li><a href="#aboutus">About Us <i class="fa fa-users"></i></a></li>
 <li><a href="#showoff">What We Can Do <i class="fa fa-code"></i></a></li>
 <li><a href="#form">Contact Us <i class="fa fa-envelope-o"></i></a></li>
 </section>
+    
+    <!--slideshow-->
 <img src="dundas.jpg" id="rotate" alt="city intersection"/>
+    
+    <!--About Section-->
 <div id="aboutus">
-<p>New eager front-end web developer based in Toronto capable of designing and maintaining your website. Custom designs not restrained to a template and guaranteed cross-browser performance. We focus on building small websites for your business or personal use, ideal to enhance your internet presence.  We will help you every step of the way from the designing stage, to functionality, to getting it online. A one stop shop for your web development needs.</p>
+<p>I’m a recent graduate from George Brown and studied both web design and development and eager to begin my career in the field. I’m currently continuing to improve my skills by leaning AngularJS, ReactJS as well as PHP in my spare time. My best work to date was working with a development team to design a website for a proposed University (check out the link below) as a web design intern. </p>
 <ul id='lang'>
 <p>Proficient in these programming languages</p>
 <li>HTML</li>
@@ -54,6 +51,8 @@ ga('send', 'pageview');
 <li>jQuery</li> 
 </ul>
 </div>
+    
+    <!--examples-->
 <div id="showoff">
 <ul id='skil'>
 <li>Professional work. Capable of building webpages from scratch </li>
@@ -68,9 +67,10 @@ ga('send', 'pageview');
 <li><a href="imran/index.html">A contact form for a university student</a></li>
 <li><a href="http://victoria-university.herokuapp.com">A website built for a proposed university</a></li>
 <li><a href="rays/index.html">A site for a Toronto based Nutritionist</a></li>
-</ul>
-    
+</ul>    
 </div>
+    
+    <!--form-->
 </div>
 <div id="form">
 <p>Use this form to get in contact with us. Be sure to fill in your name and e-mail so we can send you a reply. </p>
@@ -81,11 +81,6 @@ ga('send', 'pageview');
 <input type="text" name="name">
 <label>E-mail:</label>
 <input type="email" name="email">
-<!--<label>Interested in</label>
-<select name="options">
-    <option value="make">Build and design a Website</option>
-    <option value="remake">Redesign your exciting website</option>
-  </select>-->
 <textarea name="message">
 Write your message here
 </textarea>

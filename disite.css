@@ -13,20 +13,7 @@ width: 100%;
 min-width: 0px
 }
 
-/*#title{
-background-color: #1b998b;
-color: #CEEAF7;
-max-width: 100%;
-width: 100%;
-height: 50px;
-padding: 5px 50px;
-font-size: 50px;
-text-align: left;
-margin: 0px;
-border-bottom: 2px #828A95 solid;
-font-family: 'Poiret One', cursive;
-position: fixed;
-}*/
+
 
 #header{
 background-color: #1b998b;
@@ -116,6 +103,7 @@ border-bottom-right-radius: 10px;
 background-image: url(fba7da61.png);
 }
 
+/* slide window*/
 section{
 list-style: none;
 width: 200px;
@@ -156,7 +144,7 @@ transition-duration: 1s;
 }
 
 
-
+/*Slideshow*/
 #rotate{ 
 width: 100%; 
 height: 70%; 
@@ -240,22 +228,7 @@ list-style: none;
 padding: 10px;
 }
 
-/*.preview{
-width: 200px;
-height: 150px;
-border: 5px #828A95 solid;
-margin-right: 3%;
-box-shadow: 5px 5px 20px 5px #828A95;
-}
-
-.preview:hover{
-
-}
-
-
-#not:hover{
-cursor: not-allowed;
-}*/
+/*form*/
 
 #form{
 background-image: url(fba7da61.png);
@@ -314,6 +287,8 @@ background-color: #CEEAF7;
 color: #1b998b;
 border: 2px  #1b998b solid;
 }
+
+/*footer*/
 
 footer{
 /*position: fixed;
@@ -391,6 +366,7 @@ margin-top: 2%;
 
 }*/
 
+/*tablet view*/
 @media (max-width: 860px) {
 
 #header{
@@ -490,6 +466,8 @@ box-shadow: none;
 
 }
 
+
+/*mobile view*/
 @media (max-width: 533px) {
 #header{
 height: 35px;
