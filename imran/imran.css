@@ -9,6 +9,7 @@ background-size: cover;
 min-width: 0px;
 }
 
+/*Header*/
 #name{
 margin-top: 10%;
 font-size: 80px;
@@ -31,7 +32,7 @@ background-color:hsla(120,0%,70%,0.4);
 width: auto;
 }
 
-
+/*form button*/
 button{
 padding: 10px 30px;
 font-size: 20px;
@@ -53,6 +54,8 @@ border-radius: 10px;
 cursor:pointer;
 }
 
+
+/*Form*/
 form{
 margin-top: 22px;
 width: 50%;
@@ -79,12 +82,6 @@ border-radius: 5px;
 textarea{
 height: 150px;    
 }
-
-#ad{
-height: 100px;
-position: absolute;
-width: 50%;
-bottom: 10px;
 
 }
 
@@ -116,7 +113,7 @@ border-radius: 5px;
 }*/
 
 
-
+/*mobile view*/
 @media (max-width:515px) {
     
 body{
