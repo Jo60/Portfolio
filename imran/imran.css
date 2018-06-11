@@ -32,7 +32,7 @@ background-color:hsla(120,0%,70%,0.4);
 width: auto;
 }
 
-/*form button*/
+/*form collapse button*/
 button{
 padding: 10px 30px;
 font-size: 20px;
@@ -44,15 +44,6 @@ width: 48%;
 cursor:pointer;
 }
 
-#button{
-padding: 10px 30px;
-font-size: 20px;
-color: black;
-background-color:hsla(120,0%,70%,0.4);
-border: 2px  solid;
-border-radius: 10px;
-cursor:pointer;
-}
 
 
 /*Form*/
@@ -81,6 +72,17 @@ border-radius: 5px;
 
 textarea{
 height: 150px;    
+}
+
+/*submit button*/
+#submit{
+padding: 10px 30px;
+font-size: 20px;
+color: black;
+background-color:hsla(120,0%,70%,0.4);
+border: 2px  solid;
+border-radius: 10px;
+cursor:pointer;
 }
 
 }
